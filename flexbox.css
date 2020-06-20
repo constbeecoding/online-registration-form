@@ -1,0 +1,6 @@
+/*Flexbox Styles*/
+
+.container {
+    display: flex;
+    justify-content: center;
+}

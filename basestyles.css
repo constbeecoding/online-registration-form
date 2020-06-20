@@ -1,0 +1,31 @@
+/*Want to include Anaglyph at some point*/
+
+* {
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+body {  
+    margin-top: 0;
+
+    
+}
+
+h1 {
+    color: white;
+    background-color: grey;
+    margin-top: 0 auto;
+    text-align: center;
+}
+
+input [type="text"]{
+    background-color: grey;
+    border: 1px solid #49633d ;
+}
+
+
+
+@media (min-width: 1025px){
+
+
+}
