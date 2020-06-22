@@ -2,25 +2,34 @@
 
 * {
     font-family: 'Nunito', sans-serif;
-    
 }
 
 body {  
-    margin-top: 0;
-
-    
+    margin: auto;
 }
 
 h1 {
-    color: white;
     background-color: grey;
-    margin-top: 0 auto;
+    padding: 20px;
+    letter-spacing: 3px;
     text-align: center;
 }
 
-input [type="text"]{
-    background-color: grey;
-    border: 1px solid #49633d ;
+input[type="text"]{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid #49633d;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 0;
+}
+
+button {
+    max-width: 300px;
+    padding: 20px 100px;
+    background-color: mediumaquamarine;
+    border-radius: 10px;
 }
 
 

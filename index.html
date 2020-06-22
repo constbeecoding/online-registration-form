@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="basestyles.css">
-    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="flexbox.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:wght@400;700&display=swap&effect=anaglyph" rel="stylesheet">
     <title>The Code Review</title>
 </head>
 
 <body>
 
-    <h1>The Code Review</h1>
-    <h2>Signup for our newsletter</h2>
-    <p>Get the latest news on how your code is doing right in your inbox.</p>
+     <h1 class="font-effect-anaglyph">The Code Review</h1>
+    <div>
+        <h2>Signup for our newsletter</h2>
+        <p>Get the latest news on how your code is doing right in your inbox.</p>
 
     <!--Border Here-->
 
     <!--Form Begins Here-->
-    <container>
-        <h2>Contact Information</h2>
-        <form action="" method="post">
+    
         <fieldset>
         <legend>Contact Information</legend>
+            <form action="#" method="post">
+        
             <label for="name">Full Name</label>
             <input type="text" id="name" name="user_name" placeholder="Required">
             
@@ -111,19 +112,22 @@
 
         <!--Newsletter Section-->
 
-        <h2>Newsletter</h2>
+        <fieldset>
+            
+            <legend>Newsletter</legend>
+
         <p>Select the newsletters you would like to receive</p>
 
-        <fieldset>
-        <legend>Newsletter</legend>
+        
+        
             <input type="checkbox" id="htmlnews" name="html_news">    
-            <label for="">HTML News</label>
+            <label for="htmlnews">HTML News</label>
 
             <input type="checkbox" id="cssnews" name="css_news">
-            <label for="">CSS News</label>
+            <label for="cssnews">CSS News</label>
 
-            <input type="checkbox" id="" name="">
-            <label for="">Javascript News</label>
+            <input type="checkbox" id="jsnews" name="js_news">
+            <label for="jsnews">Javascript News</label>
 
 
             <p>Newsletter Format</p>
@@ -137,14 +141,14 @@
             <p>Other topics you'd like to hear about</p>
 
 
-            <textarea type="text" id="" name=""></textarea>
+            <textarea id="topics" name="user_topics"></textarea>
 
             <!--Signup Button Here-->
 
-            <button type="submit" id="" name="">Sign Up</button>
+            <button type="submit" id="submit" name="user_submit">Sign Up</button>
         </fieldset>
-    </container>
-        <footer>&copy The Code Review</footer>
-
+    
+        <footer>&#169; The Code Review</footer>
+    </div>
 </body>
 </html>
