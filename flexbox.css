@@ -1,14 +1,17 @@
 /*Flexbox Styles*/
 
 div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/*min-height: 100vh; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    
 }
 
-fieldset {
-    flex: 2;
+form {
 
+    
 }
 
 

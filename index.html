@@ -13,18 +13,21 @@
 
 <body>
 
-     <h1 class="font-effect-anaglyph">The Code Review</h1>
-    <div>
-        <h2>Signup for our newsletter</h2>
-        <p>Get the latest news on how your code is doing right in your inbox.</p>
+    <h1 class="font-effect-anaglyph">The Code Review</h1>
 
-    <!--Border Here-->
+<div> 
+    <h2>Signup for our newsletter</h2>
+    <p>Get the latest news on how your code is doing right in your inbox.</p>
 
-    <!--Form Begins Here-->
-    
+<!--Border Here-->
+
+<!--Form Begins Here-->
+
+    <form action="#" method="post">
+       
         <fieldset>
         <legend>Contact Information</legend>
-            <form action="#" method="post">
+            
         
             <label for="name">Full Name</label>
             <input type="text" id="name" name="user_name" placeholder="Required">
@@ -108,13 +111,12 @@
             <input type="text" id="zip" name="user_zip" placeholder="12345">
         
         </fieldset>
-        </form>
-
-        <!--Newsletter Section-->
+        
+<!--Newsletter Section-->
 
         <fieldset>
             
-            <legend>Newsletter</legend>
+        <legend>Newsletter</legend>
 
         <p>Select the newsletters you would like to receive</p>
 
@@ -143,12 +145,14 @@
 
             <textarea id="topics" name="user_topics"></textarea>
 
-            <!--Signup Button Here-->
+<!--Signup Button Here-->
 
             <button type="submit" id="submit" name="user_submit">Sign Up</button>
         </fieldset>
+    </form>
+
+</div>
+    <footer>&#169; The Code Review</footer>
     
-        <footer>&#169; The Code Review</footer>
-    </div>
 </body>
 </html>
