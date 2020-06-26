@@ -1,18 +1,33 @@
 /*Flexbox Styles*/
 
-div {
-/*min-height: 100vh; */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-    
-}
-
 form {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center; 
+}
 
-    
+input {
+    align-self: center;
+
+}
+
+select {
+    align-self: center;
+
+}
+
+footer {
+    align-self: center;
+
 }
 
 
+@media (min-width: 768px){
 
+    form {
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+}

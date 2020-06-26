@@ -15,10 +15,10 @@
 
     <h1 class="font-effect-anaglyph">The Code Review</h1>
 
-<div> 
+<div class="header"> 
     <h2>Signup for our newsletter</h2>
     <p>Get the latest news on how your code is doing right in your inbox.</p>
-
+</div>
 <!--Border Here-->
 
 <!--Form Begins Here-->
@@ -26,25 +26,25 @@
     <form action="#" method="post">
        
         <fieldset>
-        <legend>Contact Information</legend>
+        <h2><legend>Contact Information</legend></h2>
             
         
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="user_name" placeholder="Required">
+            <div><label for="name">Full Name</label>
+            <input required type="text" id="name" name="user_name" placeholder="Required"></div>
             
-            <label for="email">Email Address</label>
-            <input type="text" id="email" name="user_email" placeholder="Required">
+            <div><label for="email">Email Address</label>
+            <input required type="text" id="email" name="user_email" placeholder="Required"></div>
 
-            <label for="number">Phone Number</label>
-            <input type="text" id="number" name="user_number" placeholder="123-456-7890">
+            <div><label for="number">Phone Number</label>
+            <input required type="text" id="number" name="user_number" placeholder="123-456-7890"></div>
 
-            <label for="address">Street Address</label>
-            <input type="text" id="address" name="user_address" placeholder="123 C. Strife St.">
+            <div><label for="address">Street Address</label>
+            <input required type="text" id="address" name="user_address" placeholder="123 C. Strife St."></div>
 
-            <label for="city">City</label>
-            <input type="text" id="city" name="user_city" placeholder="Midgar">
+            <div><label for="city">City</label>
+            <input required type="text" id="city" name="user_city" placeholder="Midgar"></div>
 
-            <label for="state">State</label>
+            <div><label for="state">State</label>
             <!-- State Drop Down-->
                 <select id="state" name="user_state">
                     <option value="---">State Select</option>
@@ -105,10 +105,10 @@
                     <option value="Wyoming">Wyoming</option>
 
                     
-                </select>
+                </select></div>
 
-            <label for="zip">Zip Code</label>
-            <input type="text" id="zip" name="user_zip" placeholder="12345">
+            <div><label for="zip">Zip Code</label>
+            <input type="text" id="zip" name="user_zip" placeholder="12345"></div>
         
         </fieldset>
         
@@ -116,7 +116,7 @@
 
         <fieldset>
             
-        <legend>Newsletter</legend>
+            <h2><legend>Newsletter</legend></h2>
 
         <p>Select the newsletters you would like to receive</p>
 
@@ -151,7 +151,9 @@
         </fieldset>
     </form>
 
-</div>
+
+
+
     <footer>&#169; The Code Review</footer>
     
 </body>
