@@ -37,7 +37,7 @@ input[type="text"],
 input[type="tel"], 
 select {
     background-color: rgb(230, 228, 228);
-    border: 1px solid mediumaquamarine;
+    border: 1px solid cyan;
     border-radius: 5px;
     padding: 15px 0;
     margin: 20px
@@ -51,7 +51,7 @@ input[type="radio"] {
 
 
 input:focus {
-    background-color: yellow;
+    background-color: cyan;
 
 }
 
@@ -70,7 +70,7 @@ button {
     color: white;
     width: 100%;
     padding: 15px 100px;
-    background-color: mediumaquamarine;
+    background-color: cyan;
     border-radius: 10px;
     border: none;
     margin: 10px;
