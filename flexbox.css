@@ -8,35 +8,30 @@ footer {
     align-items: center; 
 }
 
-input,
-select,
-footer,
-legend {
-    align-self: center;
-}
- div {
+div {
     width: 100%;
-
  }
 
- label {
-    flex: 1;
- }
 
- input {
-     flex: ;
- }
 
 @media (min-width: 768px){
 
-    form {
+    form,
+    footer {
         display: flex;
         flex-direction: column;  
         justify-content: center;
-        align-items: center;
-        }
-
-    div {
-        flex-basis: ;
+        align-items: center; 
     }
+    
+    h2,
+    p {
+        align-self: center;
+    
+    }
+    
+    div {
+        width: 100%;
+    
+     }
 }
