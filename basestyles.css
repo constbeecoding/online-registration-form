@@ -1,6 +1,7 @@
 /*Base Styles -- Flexbox Styles in seperate CSS Doc*/
 * {
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
 }
 
 body {  
@@ -16,6 +17,10 @@ h1 {
     font-size: 40px;
 }
 
+div {
+    width: 100%;
+
+}
 p {
     font-size: 20px;
 }
@@ -24,7 +29,7 @@ legend
  {
     font-size: 20px;
     border-top: ridge 2px red;
-    width: 100%
+    width: 100%;
     padding: 10px 0;
 }
 
@@ -37,7 +42,7 @@ input[type="text"],
 input[type="tel"], 
 select {
     background-color: rgb(230, 228, 228);
-    border: 1px solid aquamarine;
+    border: 1px solid rgba(0, 255, 255, 0.329);
     border-radius: 5px;
     padding: 15px 0;
     margin: 20px
@@ -54,8 +59,7 @@ input[type="radio"] {
 }
 
 input:focus {
-    background-color: rgba(69, 175, 189, 0.349);
-
+    background-color: rgba(0, 255, 255, 0.63);
 }
 
 input[type="button"] {
@@ -64,31 +68,38 @@ input[type="button"] {
 
 
 fieldset {
+    display: block;
     border: 0;
     padding: 0;
 }
 
 
 button {
-    color: white;
-    width: 100%;
-    padding: 15px 100px;
-    background-color: aquamarine;
-    border-radius: 10px;
-    border: none;
-    margin: 10px;
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    border-style: dotted;
+    background-color: rgba(0, 255, 255, 0.329);
+    border-radius: 5px;
+    padding: 10px;
 }
 
 textarea {
-    width: 100%;
+    width: 90%;
+    margin: 20px auto;
+    display: block;
     border-style: dotted;
     border-radius: 5px;
-    margin: 20px;
     padding: 10px;
-
 }
 
 footer {
 margin: 20px
 }
 
+@media (min-width: 768px){
+    .fieldset {
+        
+    }
+
+}

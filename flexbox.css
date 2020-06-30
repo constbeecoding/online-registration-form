@@ -5,20 +5,23 @@ footer {
     display: flex;
     flex-direction: column;  
     justify-content: center;
-    align-items: center; 
+    
+    flex-wrap: nowrap;
 }
 
-div {
-    width: 100%;
- }
+label {
+    align-self: flex-start;
+}
 
-
+input {
+    align-self: flex-end;
+}
 
 @media (min-width: 768px){
 
     form,
     footer {
-        display: flex;
+        display: flex;ß
         flex-direction: column;  
         justify-content: center;
         align-items: center; 
@@ -30,8 +33,5 @@ div {
     
     }
     
-    div {
-        width: 100%;
     
-     }
 }
