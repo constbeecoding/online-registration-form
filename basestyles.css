@@ -1,4 +1,41 @@
+/*Flexbox Styles*/
+
+footer,
+fieldset
+{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 768px){
+
+    footer,
+    fieldset
+    {
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer {
+        align-self: center;
+    }
+}  
+
+
 /*Base Styles -- Flexbox Styles in seperate CSS Doc*/
+
+
 * {
     font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
@@ -40,12 +77,13 @@ legend
 
 input[type="text"],
 input[type="tel"], 
+input[type="email"], 
 select {
     background-color: rgb(230, 228, 228);
     border: 1px solid rgba(0, 255, 255, 0.329);
     border-radius: 5px;
     padding: 15px 0;
-    margin: 20px
+    margin: 20px 0;
 }
 
 input[type="checkbox"],
@@ -68,14 +106,12 @@ input[type="button"] {
 
 
 fieldset {
-    display: block;
-    border: 0;
-    padding: 0;
+border: 0;
+
 }
 
 
 button {
-    display: block;
     width: 90%;
     margin: 20px auto;
     border-style: dotted;
@@ -87,7 +123,6 @@ button {
 textarea {
     width: 90%;
     margin: 20px auto;
-    display: block;
     border-style: dotted;
     border-radius: 5px;
     padding: 10px;
@@ -97,9 +132,6 @@ footer {
 margin: 20px
 }
 
-@media (min-width: 768px){
-    .fieldset {
-        
-    }
 
-}
+
+

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="basestyles.css">
-    <link rel="stylesheet" href="flexbox.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:wght@400;700&display=swap&effect=anaglyph" rel="stylesheet">
     <title>The Code Review</title>
 </head>
@@ -30,22 +29,22 @@
         <legend>Contact Information</legend>
             
         
-            <div><label for="name">Full Name</label>
+            <div class="contact"><label for="name">Full Name</label>
             <input required type="text" id="name" name="user_name" placeholder="Required"></div>
             
-            <div><label for="email">Email Address</label>
-            <input required type="text" id="email" name="user_email" placeholder="Required"></div>
+            <div class="contact"><label for="email">Email Address</label>
+            <input required type="email" id="email" name="user_email" placeholder="Required"></div>
 
-            <div><label for="number">Phone Number</label>
+            <div class="contact"><label for="number">Phone Number</label>
             <input required type="tel" id="number" name="user_number" placeholder="123-456-7890"></div>
 
-            <div><label for="address">Street Address</label>
+            <div class="contact"><label for="address">Street Address</label>
             <input required type="text" id="address" name="user_address" placeholder="123 C. Strife St."></div>
 
-            <div><label for="city">City</label>
+            <div class="contact"><label for="city">City</label>
             <input required type="text" id="city" name="user_city" placeholder="Midgar"></div>
 
-            <div><label for="state">State</label>
+            <div class="contact"><label for="state">State</label>
             <!-- State Drop Down-->
                 <select id="state" name="user_state">
                     <option value="---">State Select</option>
@@ -106,7 +105,7 @@
                     <option value="Wyoming">Wyoming</option>
                 </select></div>
 
-            <div><label for="zip">Zip Code</label>
+            <div class="contact"><label for="zip">Zip Code</label>
             <input type="text" id="zip" name="user_zip" placeholder="12345"></div>
         
         </fieldset>
@@ -119,23 +118,23 @@
 
             <p>Select the newsletters you would like to receive</p>
 
-            <div><input type="checkbox" id="htmlnews" name="news">    
+            <div class="newsletter"><input type="checkbox" id="htmlnews" name="news">    
             <label for="htmlnews">HTML News</label></div>
 
-            <div><input type="checkbox" id="cssnews" name="news">
+            <div class="newsletter"><input type="checkbox" id="cssnews" name="news">
             <label for="cssnews">CSS News</label></div>
 
-            <div><input type="checkbox" id="jsnews" name="news">
+            <div class="newsletter"><input type="checkbox" id="jsnews" name="news">
             <label for="jsnews">Javascript News</label></div>
 
 
             <p>Newsletter Format</p>
 
-            <div><input type="radio" id="html" name="format">
-            <label for="state">HTML</label></div>
+            <div class="newsletter"><input type="radio" id="html" name="format">
+            <label for="html">HTML</label></div>
             
-            <div><input type="radio" id="plain_text" name="format">
-            <label for="state">Plain Text</label></div>
+            <div class="newsletter"><input type="radio" id="plain_text" name="format">
+            <label for="plain_text">Plain Text</label></div>
 
             <p>Other topics you'd like to hear about</p>
 
