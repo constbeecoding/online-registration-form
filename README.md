@@ -6,3 +6,5 @@ First time using an API Google Font Effect and I love how simple it is to add so
 
 ### Learning Moments
 I put normalize at the **bottom** of the stylesheets. * *facepalm* *
+
+I learned a lot about how flexbox functions. Including having two parent containers. *thank you John Skeen of Treehouse!*

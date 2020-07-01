@@ -26,11 +26,26 @@ fieldset
         justify-content: center;
         align-items: center;
     }
-    
-    footer {
-        align-self: center;
+
+    .contact {
+        display: flex;
+        flex-direction: row;
     }
-}  
+
+    label {
+        align-self: center;
+        flex-grow: 1;
+    }
+
+    input[type="text"],
+    input[type="tel"], 
+    input[type="email"], 
+    select{
+        align-self: center;
+        width: 80%;
+    }
+}   
+
 
 
 /*Base Styles -- Flexbox Styles in seperate CSS Doc*/
@@ -43,7 +58,6 @@ fieldset
 
 body {  
     margin: auto;
-  
 }
 
 h1 {
@@ -54,25 +68,30 @@ h1 {
     font-size: 40px;
 }
 
+fieldset {
+margin: 5%;
+}
+
 div {
     width: 100%;
 
 }
+
 p {
     font-size: 20px;
-}
-
-legend
- {
-    font-size: 20px;
-    border-top: ridge 2px red;
-    width: 100%;
-    padding: 10px 0;
 }
 
 .header {
     text-align: center;
    
+}
+
+legend
+ {
+    font-size: 30px;
+    border-top: ridge 2px red;
+    width: 100%;
+    padding: 10px 0;
 }
 
 input[type="text"],
@@ -98,10 +117,7 @@ input[type="radio"] {
 
 input:focus {
     background-color: rgba(0, 255, 255, 0.63);
-}
-
-input[type="button"] {
-    cursor: pointer;
+    transition: ;
 }
 
 
@@ -110,20 +126,29 @@ border: 0;
 
 }
 
-
 button {
     width: 90%;
     margin: 20px auto;
-    border-style: dotted;
+    border-style: double;
     background-color: rgba(0, 255, 255, 0.329);
     border-radius: 5px;
     padding: 10px;
+    font-size: 30px;
 }
 
+button:hover {
+    background-color: rgba(255, 0, 0, 0.329);
+
+}
+
+button:active {
+    background-color: ;
+
+}
 textarea {
     width: 90%;
-    margin: 20px auto;
-    border-style: dotted;
+    margin: auto;
+    border-style: solid;
     border-radius: 5px;
     padding: 10px;
 }
