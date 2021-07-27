@@ -1,0 +1,19 @@
+/* ============================================ */
+/*               Flexbox Styles                 */
+/* ============================================ */
+
+
+footer,
+fieldset
+{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}

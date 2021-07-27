@@ -1,0 +1,136 @@
+/* ============================================ */
+/*                 Base Styles                  */
+/* ============================================ */
+
+$main-color: #e6e4e4;
+$accent-color: #fa8072;
+$focus-color: #00ffffa1;
+$hover-color: #ffe600;
+
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+body {  
+    margin: auto;
+}
+
+h1 {
+    background-color: $main-color;
+    padding: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 40px;
+}
+
+fieldset {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div {
+    width: 100%;
+
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.header {
+    text-align: center;
+   
+}
+
+legend
+ {
+    background-color: $accent-color;
+    border-radius: 15px;
+    font-size: 30px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.fscontact,
+.fsnews {
+    background-color: $main-color;
+    border-radius: 20px;
+    border: none;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 1.3rem;
+
+}
+
+input[type="text"],
+input[type="tel"], 
+input[type="email"], 
+select {
+    background-color: white;
+    border: 2px solid $accent-color;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin: 20px 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 10px;
+
+}
+
+::placeholder {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.centerselect {
+    text-align: center;
+}
+
+input:focus {
+    background-color: $focus-color;
+    transition-duration: .5s;
+}
+
+
+fieldset {
+border: 0;
+
+}
+
+button {
+    width: 90%;
+    margin: 20px auto;
+    border-style: double;
+    background-color: $accent-color;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: $hover-color;
+    transition-duration: .5s;
+}
+
+button:active {
+    background-color: $focus-color;
+    transition-duration: .5s;
+}
+textarea {
+    width: 90%;
+    margin: auto;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer {
+margin: 20px
+}

@@ -1,0 +1,34 @@
+/* ============================================ */
+/*                Media Queries                 */
+/* ============================================ */
+
+
+@media (min-width: 768px){
+
+    footer,
+    fieldset
+    {
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
+
+    label {
+        align-self: center;
+        flex-grow: 1;
+    }
+
+    input[type="text"],
+    input[type="tel"], 
+    input[type="email"], 
+    select{
+        align-self: center;
+        width: 80%;
+    }
+}   
