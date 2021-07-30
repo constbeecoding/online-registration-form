@@ -426,7 +426,8 @@ input[id=zip] {
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
   background-color: #00ffffa1;
   transition-duration: 0.5s;
 }
