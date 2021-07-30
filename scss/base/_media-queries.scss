@@ -26,7 +26,7 @@
 
     label[for="zip"] {
         flex-grow: 0;
-        margin-right: 5.9rem;
+        flex-basis: 25%;
     }
 
     input[type="text"],
@@ -34,7 +34,7 @@
     input[type="email"], 
     select{
         align-self: center;
-        width: 80%;
+        flex-basis: 75%;
     }
 
     input[id="zip"] {
