@@ -98,7 +98,8 @@ input[id="zip"] {
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
     background-color: $focus-color;
     transition-duration: .5s;
 }
