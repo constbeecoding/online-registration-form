@@ -24,11 +24,25 @@
         flex-grow: 1;
     }
 
+    label[for="zip"] {
+        flex-grow: 0;
+        margin-right: 75%;
+    }
+
     input[type="text"],
     input[type="tel"], 
     input[type="email"], 
     select{
         align-self: center;
         width: 80%;
+    }
+
+    input[id="zip"] {
+       max-width: 25%;
+    }
+
+
+    h1{
+        font-size: 4rem;
     }
 }   
